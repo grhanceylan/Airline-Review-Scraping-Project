@@ -3,10 +3,10 @@ This project scraps airline reviews from [airlinequality.com](airlinequality.com
 
 The usage is very straightforward:
 
-    1. Go to [skytraxratings.com/airlines](https://skytraxratings.com/airlines) and select the types of airlines 
-       according to rating, service type and region.
-    2. Copy the genarated link from the browser and paste it into the skytrax_url list in [main.py](./Main.py) 
-       and run the file. (Optional: It is possible to insert multiple links into the list.) 
+    1. Go to [skytraxratings.com/airlines](https://skytraxratings.com/airlines) and 
+    select the types of airlines according to rating, service type and region.
+    2. Copy the genarated link from the browser and paste it into the skytrax_url list in 
+    [main.py](./Main.py) and run the file. (Optional: It is possible to insert multiple links into the list.) 
 
 The project also allows to get the specific reviews which are posted between given dates. To achive that, you need to set variables named ub_date (upper bound) and lb_date (lower bound) in main.py file. If variables are not provided, ub_date and lb_date will be set to current date and zero (minimum date), respectively
 
