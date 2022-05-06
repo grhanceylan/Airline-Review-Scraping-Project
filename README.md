@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Airline review scraping
 This project scraps airline reviews from [airlinequality.com](airlinequality.com). It is fully integrated with [https://skytraxratings.com/airlines](https://skytraxratings.com/airlines).
 
@@ -27,7 +26,3 @@ Following packages required:
    4. [Date util](https://dateutil.readthedocs.io/en/stable/) 
 
 
-=======
-# Airline Quality Web Scraper
-This is simple code snippet for scrapping  airline reviews from airlinequality.com.
->>>>>>> d49f746b46dc9534de849155bcaba134b2161534
