@@ -18,7 +18,7 @@ Gathered reviews will be written under the directory that is created from skytra
 
 
 # Required packages
-Following packages required:
+Following packages are required:
 
    1. [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/)
    2. [Pandas](https://pandas.pydata.org/)
