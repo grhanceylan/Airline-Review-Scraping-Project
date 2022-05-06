@@ -11,9 +11,25 @@ The code works as follows:
 * For each airline name create an url airlinequality.
 * For each review page fetch the reviews and write to airlinename.csv file.
 * For each review the following information will be fetched:
-    * dadsa
-    * dasdad
-        
+    * review_date,
+    * over_all_rating,
+    * review_header,
+    * trip_verified,
+    * review_text,
+    * aircraft,
+    * type_of_traveller,
+    * seat_type,
+    * route,
+    * date_flown,
+    * seat_comfort,
+    * cabin_staff_service,
+    * food__beverages,
+    * inflight_entertainment,
+    * ground_service,
+    * wifi__connectivity,
+    * value_for_money,
+    * recommended
+    * 
 Gathered reviews will be written under the directory that is created from skytrax search information. For example, if the following [skytrax link](https://skytraxratings.com/airlines?stars=5) is used with ub_date="2019-01-01", lb_date="2015-01-01" then, the directory name will be "SearchInfo__stars=5_ub_date__2019-01-01_lb_date__2015-01-01".
 
 
