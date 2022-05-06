@@ -7,10 +7,10 @@ The project also allows to get the specific reviews which are posted between giv
 
 The code works as follows:
     
-    1. For each link in *skytrax_url* get the airline names from skytrax.
-    2. For each airline name create an url airlinequality.
-    3. For each review page fetch the reviews and write to airlinename.csv file.
-    4. For each review the following information will be fetched:
+    * For each link in *skytrax_url* get the airline names from skytrax.
+    * For each airline name create an url airlinequality.
+    * For each review page fetch the reviews and write to airlinename.csv file.
+    * For each review the following information will be fetched:
         * dadsa
         * dasdad
         
