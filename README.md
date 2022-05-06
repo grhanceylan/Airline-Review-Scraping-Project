@@ -29,7 +29,7 @@ The code works as follows:
     * wifi__connectivity,
     * value_for_money,
     * recommended
-    * 
+    
 Gathered reviews will be written under the directory that is created from skytrax search information. For example, if the following [skytrax link](https://skytraxratings.com/airlines?stars=5) is used with ub_date="2019-01-01", lb_date="2015-01-01" then, the directory name will be "SearchInfo__stars=5_ub_date__2019-01-01_lb_date__2015-01-01".
 
 
