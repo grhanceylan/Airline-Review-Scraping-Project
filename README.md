@@ -7,7 +7,7 @@ The code works as follows:
 
 * For each link in *skytrax_url* get the airline names from skytrax.
 * For each airline name create an url airlinequality.
-* For each review page fetch the reviews and write to airlinename.csv file.
+* For each url get reviews page by page and, write to airlinename.csv file.
 * For each review the following information will be fetched:
     * review_date,
     * over_all_rating,
