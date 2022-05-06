@@ -6,13 +6,13 @@ The usage is very straightforward. First, go to [skytraxratings.com/airlines](ht
 The project also allows to get the specific reviews which are posted between given dates. To achive that, you need to set variables named *ub_date* (upper bound) and *lb_date* (lower bound) in [main.py](./Main.py) file. If variables are not provided then, *ub_date* and *lb_date* will be set to current date and zero (minimum date), respectively
 
 The code works as follows:
-    
-    * For each link in *skytrax_url* get the airline names from skytrax.
-    * For each airline name create an url airlinequality.
-    * For each review page fetch the reviews and write to airlinename.csv file.
-    * For each review the following information will be fetched:
-        * dadsa
-        * dasdad
+
+* For each link in *skytrax_url* get the airline names from skytrax.
+* For each airline name create an url airlinequality.
+* For each review page fetch the reviews and write to airlinename.csv file.
+* For each review the following information will be fetched:
+    * dadsa
+    * dasdad
         
 Gathered reviews will be written under the directory that is created from skytrax search information. For example, if the following [skytrax link](https://skytraxratings.com/airlines?stars=5) is used with ub_date="2019-01-01", lb_date="2015-01-01" then, the directory name will be "SearchInfo__stars=5_ub_date__2019-01-01_lb_date__2015-01-01".
 
